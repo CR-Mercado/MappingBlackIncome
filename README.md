@@ -1,7 +1,7 @@
 # MappingBlackIncome
 Dynamically Mapping Black Household Income 
 
-This app accepts a State and County argument (county derived conditionally on the state selection) and pings the US Census TIGRIS API to get the census tract shapefiles of the selected State and County. Note: Some states and/or counties may have corruput files (California being one, unfortunately). 
+This app accepts a State and County argument (county derived conditionally on the state selection) and pings the US Census TIGRIS API to get the census tract shapefiles of the selected State and County. Note: Some states and/or counties may have corruput files (California having many, unfortunately). This is typically most found when running the app on a limited memory platform like shinyapps.io. Locally should have minimal issues with the API. 
 
 For each census tract, the median income class is derived into one of five groups: 
 
